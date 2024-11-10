@@ -781,7 +781,7 @@ public class FunctionsTest extends AbstractLangTest {
         assertInstanceOf(SomeException.class, cause);
         assertEquals("Odd Invocation: 1", cause.getMessage());
         final boolean instance = predicate.test(null);
-        assertNotNull(instance);
+        //assertNotNull(instance);
     }
 
     @Test
