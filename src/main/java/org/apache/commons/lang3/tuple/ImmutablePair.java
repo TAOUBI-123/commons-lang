@@ -167,8 +167,7 @@ public class ImmutablePair<L, R> extends Pair<L, R> {
     }
 
     /** Left object */
-    public transient final L leftvalue; // Marked as transient to exclude 
-from serialization
+    public transient final L leftvalue; // Marked as transient to exclude from serialization
 
     /** Right object */
     public final R rightvalue;
