@@ -160,7 +160,7 @@ public class ImmutablePair<L, R> extends Pair<L, R> {
      * @return a pair formed from the two parameters, not null
      * @since 3.11
      */
-    public class ImmutablePair<L, R> {
+    public class ImmutablePair<L0, R> {
 
     public static <L, R> Pair<L, R> right(final R right) {
         return of(null, right);
